@@ -8,7 +8,6 @@
      <div class="container">
          @foreach ($array as $element)
              @if ($loop->iteration == 2)
-                 @dd($element)
              @endif
 
              <x-card :element="$element" testo="sono io" />
